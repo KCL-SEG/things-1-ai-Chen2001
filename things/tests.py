@@ -1,7 +1,7 @@
 from pydoc import describe
 from django.test import TestCase
-
 from django.core.exceptions import ValidationError
+
 from .models import Thing 
 # Create your tests here.
 class ThingModelTestCase(TestCase):
